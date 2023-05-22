@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB-115 Final Project</title>
+  </head>
+  <body>
+    <div style="background-color: #8ef398; padding: 10px;">
+      <h1 style="text-align: center; margin-top: 0;">Jason Lee</h1>
+      <h3 style="text-align: center;">Build Your Resume</h3>
+      <p style="text-align: center;">WEB-115 Section 0004</p>
+    </div>
+    <form>
+      <h2>Personal Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city">
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state">
+      <label for="zipcode">Zip Code:</label>
+      <input type="text" id="zipcode" name="zipcode"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="linkedin">LinkedIn:</label>
+      <input type="text" id="linkedin" name="linkedin">
+      <label for="portfolio">Portfolio Site:</label>
+      <input type="text" id="portfolio" name="portfolio"><br><br>
+
+      <h2>Skill Set</h2>
+      <p>List Programming Languages</p>
+      <label for="coding">Coding Skills:</label>
+      <input type="text" id="coding" name="coding"><br><br>
+      <label for="writing">Writing Skills:</label>
+      <input type="text" id="writing" name="writing"><br><br>
+      <label for="certification">Certifications:</label>
+      <input type="text" id="certification" name="certification"><br><br>
+
+      <h2>Technical Skills</h2>
+      <p>List years of experience</p>
+      <label for="javascript">JavaScript:</label>
+      <input type="text" id="javascript" name="javascript"><br><br>
+      <label for="php">PHP:</label>
+      <input type="text" id="php" name="php"><br><br>
+      <label for="html">HTML:</label>
+      <input type="text" id="html" name="html"><br><br>
+      <label for="css">CSS:</label>
+      <input type="text" id="css" name="css"><br><br>
+
+      <h2>Educational Background</h2>
+      <textarea id="education" name="education"></textarea><br><br>
+
+      <h2>Employment History</h2>
+      <label for="date1">Most Recent Employment Date:</label>
+      <input type="date" id="date1" name="date1"><br><br>
+      <label for="company1">Company:</label>
+      <input type="text" id="company1" name="company1"><br><br>
+      <label for="position1">Position:</label>
+      <input type="text" id="position1" name="position1"><br><br>
+      <label for="responsibilities1">Responsibilities:</label>
+      <textarea id="responsibilities1" name="responsibilities1"></textarea><br><br>
+
+      <label for="date2">Most Recent Employment Date:</label>
+      <input type="date" id="date2" name="date2"><br><br>
+      <label for="company2">Company:</label>
+      <input type="text" id="company2" name="company2"><br><br>
+      <label for="position2">Position:</label>
+      <input type="text" id="position2" name="position2"><br><br>
+      <label for="responsibilities2">Responsibilities:</label>
+      <textarea id="responsibilities2" name="responsibilities2"></textarea><br><br>
+
+      <label for="date3">Most Recent Employment Date:</label>
+      <input type="date" id="date3" name="date3"><br><br>
+      <label for="company3">Company:</label>
+      <input type="text" id="company3" name="company3"><br><br>
+      <label for="position3">Position:</label>
+      <input type="text" id="position3" name="position3"><br><br>
+      <label for="responsibilities3">Responsibilities:</label>
+      <textarea id="responsibilities3" name="responsibilities3"></textarea><br><br>
+
+	  <h2>References</h2>
+	  <label for="ref1">Reference 1:</label>
+	  <input type="text" id="ref1" name="ref1"><br><br>
+	  <label for="ref2">Reference 2:</label>
+	  <input type="text" id="ref2" name="ref2"><br><br>
+    <label for="ref3">Reference 3:</label>
+    <input type="text" id="ref3" name="ref3"><br><br>
+
+	  <button onclick="createResume()">Create Resume</button>
+	</form>
+
+	<script src="projectJS.js"></script>
+</body>
+</html>
